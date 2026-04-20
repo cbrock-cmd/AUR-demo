@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athletic Edge | Pro-Grade Sports Rehab Kits</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .hero-gradient {
+            background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+        }
+
+        .card-shadow {
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-blur {
+            backdrop-filter: blur(8px);
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 nav-blur border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center">
+                    <span class="text-2xl font-800 tracking-tighter text-blue-600 uppercase italic">Athletic<span class="text-gray-900">Edge</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8 font-medium">
+                    <a href="#home" class="hover:text-blue-600 transition">Home</a>
+                    <a href="#about" class="hover:text-blue-600 transition">About Me</a>
+                    <a href="#kits" class="hover:text-blue-600 transition">The Kits</a>
+                    <a href="#pricing" class="hover:text-blue-600 transition">Pricing</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-600">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-32 pb-20 hero-gradient text-white">
+        <div class="max-center-container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 space-y-6">
+                <h1 class="text-5xl md:text-6xl font-800 leading-tight">
+                    Recover Like a <span class="text-blue-400">Pro</span>, At Home.
+                </h1>
+                <p class="text-xl text-gray-300 max-w-lg">
+                    Stop letting minor injuries sideline your season. Professional-grade rehab equipment curated for athletes who demand the best recovery.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="#kits" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-bold transition transform hover:scale-105">Shop Kits</a>
+                    <a href="#about" class="border border-white hover:bg-white hover:text-gray-900 px-8 py-3 rounded-full font-bold transition">Meet Your Coach</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 mt-12 md:mt-0 flex justify-center">
+                <div class="relative">
+                    <div class="absolute -inset-1 bg-blue-500 rounded-lg blur opacity-25"></div>
+                    <div class="relative bg-gray-800 p-4 rounded-xl border border-gray-700">
+                        <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800" alt="Rehab Kit Items" class="rounded-lg shadow-2xl">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/3">
+                    <div class="aspect-square rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
+                        <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?auto=format&fit=crop&q=80&w=600" alt="Founder Portrait" class="w-full h-full object-cover" onerror="this.src='https://via.placeholder.com/600x600?text=Your+Photo+Here'">
+                    </div>
+                </div>
+                <div class="md:w-2/3 space-y-6">
+                    <h2 class="text-4xl font-bold text-gray-900 italic uppercase">The Expert Behind the Kit</h2>
+                    <div class="w-20 h-1.5 bg-blue-600"></div>
+                    <p class="text-lg text-gray-600 leading-relaxed">
+                        Hi, I’m Alex. After years of working as a professional sports therapist for elite athletes, I noticed a massive gap: most people don't have access to the right tools once they leave the clinic.
+                    </p>
+                    <p class="text-lg text-gray-600 leading-relaxed">
+                        I started <strong>Athletic Edge</strong> to change that. I've personally selected every item in our kits to ensure they meet the same standards used by top-tier professionals. My mission is to empower you to take control of your recovery, reduce pain, and get back to the sports you love.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 pt-4">
+                        <div class="flex items-center space-x-2 text-blue-600 font-bold">
+                            <i class="fas fa-certificate"></i>
+                            <span>Certified PT</span>
+                        </div>
+                        <div class="flex items-center space-x-2 text-blue-600 font-bold">
+                            <i class="fas fa-dumbbell"></i>
+                            <span>10+ Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Kits Section -->
+    <section id="kits" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold mb-16">What's Inside the Kit?</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl card-shadow">
+                    <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-band-aid text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Mobility Tools</h3>
+                    <p class="text-gray-600">High-density foam rollers, lacrosse balls, and mobility bands for myofascial release.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl card-shadow">
+                    <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-bolt text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Muscle Recovery</h3>
+                    <p class="text-gray-600">Portable TENS units and compression sleeves to manage inflammation and stimulate blood flow.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl card-shadow">
+                    <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-book-medical text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Guided Programs</h3>
+                    <p class="text-gray-600">Every kit includes a digital library of rehab protocols designed by me for common injuries.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Choose Your Level</h2>
+                <p class="text-gray-600">Invest in your longevity. Every kit comes with a 100% satisfaction guarantee.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Starter Kit -->
+                <div class="border-2 border-gray-100 rounded-3xl p-8 hover:border-blue-500 transition-all group">
+                    <h3 class="text-2xl font-bold mb-2">The Essentials Kit</h3>
+                    <p class="text-gray-500 mb-6">Perfect for weekend warriors.</p>
+                    <div class="text-4xl font-bold mb-6">$149 <span class="text-lg font-normal text-gray-400">USD</span></div>
+                    <ul class="space-y-4 mb-8 text-gray-600">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i> Resistance Band Set</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i> Mini Massage Ball</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i> Kinesiology Tape (2 Rolls)</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i> PDF Mobility Guide</li>
+                    </ul>
+                    <button onclick="showModal('Essentials Kit')" class="w-full py-3 rounded-xl border-2 border-blue-600 text-blue-600 font-bold group-hover:bg-blue-600 group-hover:text-white transition">Order Now</button>
+                </div>
+
+                <!-- Pro Kit -->
+                <div class="relative bg-gray-900 text-white rounded-3xl p-8 shadow-2xl transform md:-translate-y-4">
+                    <div class="absolute top-0 right-0 bg-blue-600 text-xs font-bold px-4 py-1 rounded-bl-xl rounded-tr-xl uppercase">Best Value</div>
+                    <h3 class="text-2xl font-bold mb-2">The Elite Pro Kit</h3>
+                    <p class="text-gray-400 mb-6">For the serious competitive athlete.</p>
+                    <div class="text-4xl font-bold mb-6">$299 <span class="text-lg font-normal text-gray-500">USD</span></div>
+                    <ul class="space-y-4 mb-8 text-gray-300">
+                        <li><i class="fas fa-check text-blue-400 mr-2"></i> Everything in Essentials</li>
+                        <li><i class="fas fa-check text-blue-400 mr-2"></i> Portable TENS Machine</li>
+                        <li><i class="fas fa-check text-blue-400 mr-2"></i> High-Density Foam Roller</li>
+                        <li><i class="fas fa-check text-blue-400 mr-2"></i> Full Video Rehab Library</li>
+                        <li><i class="fas fa-check text-blue-400 mr-2"></i> 15min Consult Call</li>
+                    </ul>
+                    <button onclick="showModal('Elite Pro Kit')" class="w-full py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold transition shadow-lg">Upgrade to Pro</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <span class="text-2xl font-800 tracking-tighter text-blue-500 uppercase italic">Athletic<span class="text-white">Edge</span></span>
+            <p class="mt-4 text-gray-500">Professional recovery at your doorstep.</p>
+            <div class="flex justify-center space-x-6 mt-8">
+                <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram text-2xl"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook text-2xl"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-tiktok text-2xl"></i></a>
+            </div>
+            <div class="mt-8 text-sm text-gray-600">
+                &copy; 2024 Athletic Edge Rehab. All rights reserved. Medical Disclaimer: Consult your doctor before starting any rehab program.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Simple Modal for "Order Now" -->
+    <div id="orderModal" class="fixed inset-0 bg-black bg-opacity-75 z-[60] hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-md w-full p-8 relative">
+            <button onclick="closeModal()" class="absolute top-4 right-4 text-gray-400 hover:text-gray-600 text-2xl">&times;</button>
+            <h2 class="text-2xl font-bold mb-4">Reserve Your <span id="kitName" class="text-blue-600"></span></h2>
+            <p class="text-gray-600 mb-6">Please enter your email and we'll send you a checkout link!</p>
+            <div class="space-y-4">
+                <input type="email" placeholder="athlete@example.com" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <button onclick="submitOrder()" class="w-full bg-blue-600 text-white py-3 rounded-lg font-bold hover:bg-blue-700">Send Payment Link</button>
+            </div>
+            <div id="successMessage" class="hidden mt-4 p-3 bg-green-100 text-green-700 rounded-lg text-center font-medium">
+                Success! Check your inbox.
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showModal(name) {
+            document.getElementById('kitName').innerText = name;
+            document.getElementById('orderModal').classList.remove('hidden');
+            document.getElementById('orderModal').classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            document.getElementById('orderModal').classList.add('hidden');
+            document.getElementById('orderModal').classList.remove('flex');
+            document.getElementById('successMessage').classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        function submitOrder() {
+            document.getElementById('successMessage').classList.remove('hidden');
+            setTimeout(() => {
+                closeModal();
+            }, 2000);
+        }
+
+        // Mobile Menu Logic
+        const btn = document.getElementById('mobile-menu-button');
+        btn.addEventListener('click', () => {
+            // Mobile menu logic could be added here
+            // For a single page, the anchor links work fine
+        });
+    </script>
+</body>
+</html>
